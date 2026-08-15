@@ -34,7 +34,7 @@
                 <div class="info-icon">✉️</div>
                 <div>
                     <h3>Email</h3>
-                    <p>hello@mellovia.test</p>
+                    <p>hello@mellovia.com</p>
                 </div>
             </div>
 
