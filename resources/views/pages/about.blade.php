@@ -47,8 +47,8 @@
         <div class="mv-icon">🌟</div>
         <h2>Our Vision</h2>
         <p>
-            Our vision is to become a favorite local destination for
-            people looking for quality ice cream and memorable sweet moments.
+            Our vision is to become a trusted local ice cream destination where people 
+            can enjoy delicious flavors and create memorable moments with the people they love.
         </p>
     </div>
 </section>
