@@ -1,0 +1,862 @@
+
+body {
+    background-color: #C7D3C0;
+}
+
+
+
+nav {
+    background-color: #4a2c2a;
+    margin: 20px 5%;
+    padding: 18px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(74, 44, 42, 0.15);
+}
+
+nav div {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+nav a:first-child {
+    margin-right: auto;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 23px;
+    color: #ffd6dc;
+    letter-spacing: 0.2px;
+}
+
+nav a:hover {
+    color: #f4c56a;
+}
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+/* Parent Container na humahawak sa Text at Image */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #4a2c2a;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #6b514e;
+    margin-bottom: 25px;
+}
+
+.hero-content a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4a2c2a;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.hero-content a:hover {
+    background-color: #6b514e;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+/* =========================================
+   COMMON HEADINGS & TAGS
+========================================= */
+
+.section-tagline {
+    display: inline-block;
+    background-color: #fceee9;
+    color: #4a2c2a;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 16px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+}
+
+.section-heading {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    color: #4a2c2a;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.section-heading::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f4c56a;
+    margin: 15px auto 0;
+    border-radius: 2px;
+}
+
+/* =========================================
+   1. INTRODUCTION SECTION
+========================================= */
+
+.intro-section {
+    background-color: #ffffff;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 50px 40px;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(74, 44, 42, 0.05);
+}
+
+.intro-text-container p {
+    font-size: 18px;
+    color: #6b514e;
+    line-height: 1.7;
+    max-width: 750px;
+    margin: 0 auto 15px auto;
+}
+
+.intro-text-container p:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================================
+   2. FEATURED FLAVORS SECTION
+========================================= */
+
+.featured-section {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.flavor-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.flavor-card {
+    background-color: #ffffff;
+    padding: 35px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(74, 44, 42, 0.06);
+    text-align: left;
+    border: 1px solid rgba(74, 44, 42, 0.08);
+    transition: all 0.3s ease;
+}
+
+.flavor-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(74, 44, 42, 0.12);
+    border-color: #f4c56a;
+}
+
+.flavor-card h3 {
+    font-size: 22px;
+    color: #4a2c2a;
+    margin-bottom: 12px;
+}
+
+.flavor-card p {
+    font-size: 16px;
+    color: #6b514e;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* =========================================
+   3. CALL TO ACTION (CTA) SECTION
+========================================= */
+
+.cta-banner {
+    background: linear-gradient(135deg, #4a2c2a 0%, #311c1b 100%);
+    max-width: 1100px;
+    margin: 80px auto 40px;
+    padding: 60px 30px;
+    border-radius: 24px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 15px 35px rgba(74, 44, 42, 0.2);
+}
+
+.cta-banner h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.cta-banner p {
+    font-size: 18px;
+    color: #ffd6dc;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f4c56a;
+    color: #4a2c2a;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 36px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cta-button:hover {
+    background-color: #ffffff;
+    color: #4a2c2a;
+    transform: scale(1.05);
+}
+
+/* =========================================
+   FOOTER STYLES
+========================================= */
+
+.main-footer {
+    background-color: #4a2c2a;
+    color: #ffffff;
+    padding: 35px 20px;
+    margin-top: 60px;
+    border-top: 4px solid #f4c56a;
+    border-radius: 20px 20px 0 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-info p,
+.footer-contact p {
+    margin: 0;
+    font-size: 15px;
+    color: #ffd6dc;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socials a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+    color: #f4c56a;
+}
+
+/* Responsive adjustment para sa mobile screens */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.card-img-holder {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.card-img-holder img {
+    max-height: 160px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.flavor-card:hover .card-img-holder img {
+    transform: scale(1.08) rotate(-3deg);
+}
+
+/* =========================================
+   ABOUT PAGE STYLES
+========================================= */
+
+.about-heading {
+    font-family: 'Fraunces', serif;
+    font-size: 38px;
+    color: #4a2c2a;
+    margin-bottom: 20px;
+}
+
+/* 1. About Hero Header */
+.about-hero-banner {
+    text-align: center;
+    padding: 60px 20px 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-hero-banner h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 48px;
+    color: #4a2c2a;
+    margin: 10px 0;
+}
+
+.about-subtext {
+    font-size: 20px;
+    color: #6b514e;
+    line-height: 1.6;
+}
+
+/* 2. Our Story Section */
+.about-story-section {
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
+
+.story-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(74, 44, 42, 0.05);
+    text-align: center;
+}
+
+.story-card p {
+    font-size: 17px;
+    color: #6b514e;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.story-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* 3. Mission & Vision Grid */
+.mission-vision-container {
+    max-width: 1000px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.mv-card {
+    background-color: #ffffff;
+    padding: 35px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(74, 44, 42, 0.06);
+    border-top: 5px solid #4a2c2a;
+    text-align: center;
+}
+
+.mv-icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.mv-card h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 26px;
+    color: #4a2c2a;
+    margin-bottom: 15px;
+}
+
+.mv-card p {
+    font-size: 16px;
+    color: #6b514e;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* 4. Values Section */
+.values-section {
+    max-width: 1000px;
+    margin: 0 auto 70px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.values-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.value-item {
+    background-color: #ffffff;
+    color: #4a2c2a;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 28px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(74, 44, 42, 0.08);
+    border: 1px solid rgba(74, 44, 42, 0.1);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.value-item:hover {
+    transform: translateY(-4px);
+    border-color: #f4c56a;
+}
+
+/* 5. Team Section */
+.team-section {
+    max-width: 1100px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.team-card {
+    background-color: #ffffff;
+    padding: 35px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(74, 44, 42, 0.06);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-6px);
+}
+
+.team-avatar {
+    font-size: 45px;
+    background-color: #fceee9;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.team-card h3 {
+    font-size: 22px;
+    color: #4a2c2a;
+    margin-bottom: 5px;
+}
+
+.team-role {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #f4c56a;
+    background-color: #4a2c2a;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.team-card p {
+    font-size: 15px;
+    color: #6b514e;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.team-img-holder {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #f4c56a;
+    box-shadow: 0 6px 15px rgba(74, 44, 42, 0.12);
+}
+
+.team-img-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover .team-img-holder img {
+    transform: scale(1.1);
+}
+
+/* =========================================
+   SERVICES / FLAVORS PAGE STYLES
+========================================= */
+
+.services-hero-banner {
+    text-align: center;
+    padding: 60px 20px 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.services-hero-banner h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 48px;
+    color: #4a2c2a;
+    margin: 10px 0;
+}
+
+.services-subtext {
+    font-size: 19px;
+    color: #6b514e;
+    line-height: 1.6;
+}
+
+.services-grid-section {
+    max-width: 1100px;
+    margin: 0 auto 70px;
+    padding: 0 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(74, 44, 42, 0.06);
+    border: 1px solid rgba(74, 44, 42, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(74, 44, 42, 0.12);
+    border-color: #f4c56a;
+}
+
+.service-img-holder {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #fcfaf8;
+    border-radius: 14px;
+}
+
+.service-img-holder img {
+    max-height: 140px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-img-holder img {
+    transform: scale(1.08) rotate(-2deg);
+}
+
+.service-card h3 {
+    font-size: 22px;
+    color: #4a2c2a;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    font-size: 15px;
+    color: #6b514e;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* =========================================
+   CONTACT PAGE STYLES
+========================================= */
+
+.contact-hero-banner {
+    text-align: center;
+    padding: 60px 20px 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact-hero-banner h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 48px;
+    color: #4a2c2a;
+    margin: 10px 0;
+}
+
+.contact-subtext {
+    font-size: 19px;
+    color: #6b514e;
+    line-height: 1.6;
+}
+
+.contact-main-section {
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+}
+
+.contact-heading {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    color: #4a2c2a;
+    margin-bottom: 25px;
+}
+
+/* Contact Info Cards */
+.contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-card {
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 8px 20px rgba(74, 44, 42, 0.05);
+    border: 1px solid rgba(74, 44, 42, 0.08);
+}
+
+.info-icon {
+    font-size: 28px;
+    background-color: #fceee9;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.info-card h3 {
+    font-size: 16px;
+    color: #4a2c2a;
+    margin-bottom: 4px;
+}
+
+.info-card p {
+    font-size: 15px;
+    color: #6b514e;
+    margin: 0;
+}
+
+/* Socials Section */
+.socials-box {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(74, 44, 42, 0.05);
+    border: 1px solid rgba(74, 44, 42, 0.08);
+    margin-top: 10px;
+}
+
+.socials-box h3 {
+    font-size: 18px;
+    color: #4a2c2a;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    background-color: #fcfaf8;
+    color: #4a2c2a;
+    padding: 8px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid rgba(74, 44, 42, 0.15);
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #4a2c2a;
+    color: #ffffff;
+}
+
+/* Contact Form Styling */
+.contact-form-wrapper {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(74, 44, 42, 0.06);
+    border: 1px solid rgba(74, 44, 42, 0.08);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #4a2c2a;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid rgba(74, 44, 42, 0.2);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    background-color: #fcfaf8;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4a2c2a;
+    background-color: #ffffff;
+}
+
+.submit-btn {
+    background-color: #4a2c2a;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #f4c56a;
+    color: #4a2c2a;
+    transform: translateY(-2px);
+}
+
+/* Map Section */
+.map-section {
+    max-width: 1100px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+
+.map-container {
+    box-shadow: 0 10px 30px rgba(74, 44, 42, 0.08);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.nav-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -10px; /* Hihilahin ang buong brand group pa-left */
+}
+
+.nav-brand img {
+    margin-left: -15px; /* Hihilahin ang mismong logo pa-left */
+    margin-top: 10px; /* Bahagyang itaas ang logo para mas ma-align sa text */
+}
+.nav-brand span {
+    margin-left: 25px; /* Nagtutulak sa text pa-right */
+}
