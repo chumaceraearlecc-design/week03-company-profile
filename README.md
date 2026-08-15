@@ -1,28 +1,27 @@
-# Mellovia Creamery - Laravel MVC Implementation
- 
+# Company Profile Website - Laravel MVC Implementation
+
 ## 1. Project Title
 **Mellovia Creamery - Company Profile Website**
- 
+
 ---
- 
+
 ## 2. Introduction
- 
+
 ### What is a Company Profile Website?
 A Company Profile Website serves as an official online presence for a business. It provides visitors with important information about the company, its products or services, values, and contact details. For Mellovia Creamery, the website introduces the brand and showcases its ice cream flavors and offerings.
- 
+
 ### Why Businesses Need One
 * **Credibility & Trust:** An official website helps establish a professional and trustworthy online presence.
 * **Brand Awareness:** It allows customers to discover the business, its products, and its brand identity.
 * **Customer Engagement:** Visitors can easily explore products, learn more about the company, and find contact information.
-* **Accessible Information:** Customers can view the company's offerings and information anytime through the website.
- 
+* **Accessible Information:** Customers can view the company's offerings and information anytime through the website. media.
+
 ### Purpose of the Project
 The purpose of this project is to develop a responsive multi-page company profile website for **Mellovia Creamery** using PHP and Laravel's Model-View-Controller (MVC) architecture. The project demonstrates the use of Laravel routing, controllers, Blade templates, reusable layouts, components, and organized project structure.
- 
+
 ---
- 
+
 ## 3. Objectives
- 
 * Configure Laravel routes in `routes/web.php` for the Home, About, Services, and Contact pages.
 * Implement `CompanyController.php` to handle client requests and return the appropriate views.
 * Use the Blade Templating Engine to create reusable layouts and components.
@@ -32,10 +31,11 @@ The purpose of this project is to develop a responsive multi-page company profil
 * Manage the project using Git and maintain a meaningful commit history.
 * Publish the project through a public GitHub repository.
  
+
 ---
- 
+
 ## 4. MVC Architecture
- 
+
 ### What is MVC?
 MVC stands for **Model-View-Controller**, an architectural pattern that separates an application into three main components:
  
@@ -72,8 +72,8 @@ HTML Response
    │
    ▼
 Browser
-
-## 5. Laravel Routing
+```
+### 5. Laravel Routing
 
 Key Routing Concepts
 Route Definitions: This is the official declaration of URL endpoints inside routes/web.php. It specifies the HTTP method (such as GET, POST), the path, and the corresponding logic or controller function.
@@ -151,7 +151,7 @@ Houses all official configuration files for the entire framework (such as databa
 ![companycontroll](public/images/companycontrol.png)
 ![chicken](public/images/app.png)
 ![Project](public/images/project.png)
-![GitHub](public/images/github.png)
+![GitHub](public/images/.png)
 
 
 
