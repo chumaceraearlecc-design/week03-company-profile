@@ -9,8 +9,8 @@
     <span class="section-tagline">Our Menu</span>
     <h1>Our Flavors & Offerings</h1>
     <p class="services-subtext">
-        From familiar favorites to exciting creations,
-        Mellovia Creamery has a flavor for every kind of craving.
+        From timeless favorites to exciting new creations, Mellovia Creamery 
+        offers delicious flavors for every sweet moment and every kind of craving.
     </p>
 </section>
 
