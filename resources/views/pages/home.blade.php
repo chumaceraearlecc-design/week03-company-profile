@@ -56,10 +56,10 @@
 
     <div class="flavor-card">
         <div class="card-img-holder">
-            <img src="{{ asset('images/vanilla2.png') }}" alt="Midnight Chocolate">
+            <img src="{{ asset('images/vanilla2.png') }}" alt="Vanilla Bean">
         </div>
         <h3>🍦 Vanilla Bean</h3>
-        <p>Classic, smooth, and rich vanilla ice cream made with real vanilla bean..</p>
+        <p>Classic, smooth, and rich vanilla ice cream made with real vanilla bean.</p>
     </div>
 
     <div class="flavor-card">
