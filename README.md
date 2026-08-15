@@ -141,6 +141,8 @@ Houses all official configuration files for the entire framework (such as databa
 ![companycontroll](public/images/companycontrol.png)
 ![chicken](public/images/app.png)
 ![Project](public/images/project.png)
+![GitHub](public/images/github.png)
+
 
 
 ## 10. Problems Encountered
